@@ -1,0 +1,49 @@
+.fa {
+    font-size: 28px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+}
+
+.clearfix:after,
+.clearfix:before {
+    display: table;
+    content: '';
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+a:hover  {
+    color: #bd2631;
+}
+
+body {
+    font: 400 14px 'Hind', sans-serif ;
+}
+
+
+/*   HEADER  */
+
+.social-information {
+    background-color: #ededed;
+    padding: 10px 50px;
+
+}
+
+.address-block {
+    float: left;
+}
