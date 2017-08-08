@@ -104,8 +104,6 @@ a:hover{
     cursor: pointer;
 }
 
-
-
 /*    HEADER   */
 /*    BLOCK2   */
 .logo-section{
@@ -220,9 +218,9 @@ nav li a:hover{
     width: 8%;
     cursor: pointer;
 }
-.slider .toggle:hover{
-    background: rgba(255,0,0,0.2);
-}
+/*.slider .toggle:hover{*/
+    /*background: rgba(255,0,0,0.2);*/
+/*}*/
 .slider .angle{
     position:absolute;
     color: #fff;
@@ -413,6 +411,7 @@ nav li a:hover{
 .sectors{
     background-color: #bd2631;
     padding-bottom: 1px;
+    overflow: hidden;
 }
 .sectors .tile{
     float: left;
@@ -472,10 +471,70 @@ nav li a:hover{
     margin-left: 6.3%;
 }
 /*   FOOTER   */
-footer{
-    font-size: 30px;
+footer .info{
+    background-color: #242424;
+    padding: 63px 10% 40px 10%;
+}
+footer .info .content{
+    display: table;
+}
+footer .info .column{
+    display: table-cell;
+    color: #fff;
+    width: 25%;
+    box-sizing: border-box;
+    padding-right: 18px;
+    padding-left: 38px;
+    border-right: 1px solid #353535;
+    min-height: 261px;
+}
+footer .info .column:last-child{
+    border-right: none;
+}
+footer .info .column p{
+    margin-bottom: 16px;
+    font-size: 12px;
+    line-height: 1.4;
+}
+footer .info .column .indent{
+    text-indent: 10px;
+    display: inline-block;
+}
+footer .info .column h3{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #bd2631;
+    margin-bottom: 24px;
+}
+footer .info .column h4{
+    font-size: 12px;
+    color: #bd2631;
+}
+footer .copyright{
+    position: relative;
+    top:-1px;
+    background-color: #131313;
+    min-height: 82px;
+    /*box-sizing: border-box;*/
+    padding-left: 10%;
+    padding-right: 10%;
+}
+footer .copyright p{
+    float: left;
+    font-size: 12px;
+    color: #fff;
+    margin-top: 35px;
+    padding-right: 18px;
+    padding-left: 38px;
+}
+footer .copyright p:nth-child(2){
+    float: right;
 }
 
+footer .white-bar{
+    background-color: #fff;
+    min-height: 23px;
+}
 /*****************/
 
 /*    END   */
